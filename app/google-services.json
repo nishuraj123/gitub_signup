@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "86306228416",
+    "firebase_url": "https://login-e5ac4-default-rtdb.firebaseio.com",
+    "project_id": "login-e5ac4",
+    "storage_bucket": "login-e5ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86306228416:android:4874c6c68a9b102fa70525",
+        "android_client_info": {
+          "package_name": "com.ditya.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGaq9c_JIiXR5P9-IK0yfMHd5d0daXNSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86306228416:android:48a7755e28280c3aa70525",
+        "android_client_info": {
+          "package_name": "com.ditya.singup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGaq9c_JIiXR5P9-IK0yfMHd5d0daXNSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

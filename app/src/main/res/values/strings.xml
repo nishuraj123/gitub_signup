@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Singup</string>
+
+    <string name="user_name">Username</string>
+    <string name="password_login">Password</string>
+    <string name="forgot_password">Forget password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have">"Don't have an account "</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="phone">Phone no</string>
+    <string name="confirm">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+<!--    <string name="hello_blank_fragment">Dashboard fragment</string>-->
+    <string name="open_nav">Open</string>
+    <string name="close_nav">Close\n</string>
+</resources>
