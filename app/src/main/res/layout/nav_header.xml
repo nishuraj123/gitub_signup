@@ -7,17 +7,17 @@
     android:layout_height="match_parent">
 
 
-    <androidx.constraintlayout.widget.Guideline
+    <!--<androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidLineOne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.3"/>
+        app:layout_constraintGuide_percent="0.3"/>-->
 
-    <TextView
+    <ImageView
         android:id="@+id/textView3"
         android:layout_width="412dp"
-        android:layout_height="197dp"
+        android:layout_height="190dp"
         android:background="@color/orange"
         android:gravity="center"
         android:textColor="@color/white"
@@ -26,65 +26,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <!-- app:layout_constraintBottom_toTopOf="@+id/guidLineOne"-->
+
+    <!-- app:layout_constraintBottom_toTopOf="@+id/guidLineOne"-->
+
+    <!--app:layout_constraintTop_toBottomOf="@+id/guidLineOne"-->
+
+    <TextView
         android:id="@+id/imageView"
         android:layout_width="0dp"
-        android:layout_height="506dp"
-        android:src="@drawable/dg_bg"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/dg_bg"
         android:textColor="@color/white"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivLogo" />
 
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         android:src="@drawable/cricle_shape"
-        app:layout_constraintBottom_toTopOf="@+id/guidLineOne"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <!--android:fontFamily=""-->
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_width="48dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/na"
+
         android:gravity="center"
-        android:text="D"
+        android:textColor="@color/sky"
         android:textSize="70dp"
         android:textStyle="bold"
-        android:textColor="@color/sky"
-        app:layout_constraintBottom_toTopOf="@+id/guidLineOne"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/ivLogo"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="@+id/ivLogo"
-        app:layout_constraintTop_toTopOf="@+id/ivLogo"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/ivLogo" />
 
     <TextView
         android:id="@+id/darsh"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
         android:text="Darsh Ranjan"
         android:textColor="@color/black"
-        android:gravity="center"
-        android:textSize="25dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guidLineOne" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/enroll_id"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="Enroll No 2003"
+        android:text="Enroll No.2003"
         android:textColor="@color/sky"
-        android:textSize="25dp"
-        android:textStyle="italic"
+        android:textSize="15dp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/darsh" />

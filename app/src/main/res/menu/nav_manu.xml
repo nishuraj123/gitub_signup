@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    tools:showIn = "navigation_view">
+    <!--   xmlns:tools="http://schemas.android.com/tools"
 
-   <!-- <group
-        android:checkableBehavior="single">-->
+       tools:showIn = "navigation_view"-->
+    <!--yh line cumnt huaa hai-->
 
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/baseline_dashboard_24"
-            android:title="Dashboard"
-            />
 
-        <item
-            android:id="@+id/nav_settings"
-            android:icon="@drawable/u_icon"
-            android:title="My profile"/>
-
-        <!--<item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/nav_share"
-            android:title="Share"/>
-
-        <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/nav_about"
-            android:title="About Us"/>-->
-   <!-- </group>-->
-    <!--<item
-        android:title="">
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="Dummy 1">
 
         <menu>
             <item
                 android:id="@+id/nav_logout"
-                android:icon="@drawable/nav_logout"
-                android:title="Logout"/>
+                android:icon="@drawable/square1"
+                android:title="Logout">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/nav_logout1"
+                        android:icon="@drawable/square1"
+                        app:showAsAction="ifRoom|withText"
+                        android:title="Logout"/>
+
+                    <item
+                        android:id="@+id/nav_logout2"
+                        android:icon="@drawable/square1"
+                        app:showAsAction="ifRoom|withText"
+                        android:title="Logout"/>
+
+                    <item
+                        android:id="@+id/nav_logout3"
+                        android:icon="@drawable/square1"
+                        app:showAsAction="ifRoom|withText"
+                        android:title="Logout"/>
+                </menu>
+
+            </item>
+
+
+
         </menu>
-    </item>-->
+    </item>
 
 </menu>

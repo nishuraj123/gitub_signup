@@ -44,15 +44,15 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
 
         if (savedInstanceState == null) {
-            replaceFragment(Dashborad_fragment())
+//            replaceFragment(Dashborad_fragment())
 //                /**/.replace(R.id.nav_home, Dashborad_fragment())/*.commit()*/
-            navigationView.setCheckedItem(R.id.nav_home)
+//            navigationView.setCheckedItem(R.id.nav_home)
         }
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_home -> replaceFragment(Dashborad_fragment())
+//            R.id.nav_home -> replaceFragment(Dashborad_fragment())
         }
 
         drawerLayout.closeDrawer(GravityCompat.START)
@@ -61,12 +61,12 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
     }
 
-    private fun replaceFragment(fragment: Fragment) {
+   /* private fun replaceFragment(fragment: Fragment) {
 
         val transition: FragmentTransaction = supportFragmentManager.beginTransaction()
         transition.replace(R.id.fragment_container, fragment)
         transition.commit()
-    }
+    }*/
 
     override fun onBackPressed() {
         super.onBackPressed()

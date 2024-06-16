@@ -13,6 +13,15 @@ import com.ditya.singup.databinding.ActivityWelcomeScreenBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 
+
+//sahi ye hai right???
+
+//aur kuch hepl
+
+//are saub manu add karna hai profile me kaise add hoga
+//toh wo aap khud se add kr liye...
+//khud ka protice hoga.
+/*are but kaise kare wahi o samjh me nahi aa raha hai*/
 class LogInActivity : AppCompatActivity() {
 
     /*private val binding: ActivityLogInBinding by lazy {
